@@ -31,6 +31,8 @@
 * **Repository Version**: 1.0.4
 * **Repository Version DTG**: 2026-09-07-12-00
 
+---
+
 * [0. Meet the Prerequisites](#0-meet-the-prerequisites)
 * [1. Setup the Assignment](#1-setup-the-assignment)
 * [2. Complete Part A](#2-complete-part-a)
@@ -80,14 +82,14 @@ We strongly recommend that you complete course assignments using the Codio Virtu
 
 6. Open a new terminal window and copy the following command block and paste it into the new terminal window. If prompted about a "Potentially Unsafe Paste", click the **Paste** button. Press **Enter** to run the commands. **Windows users must use a Git Bash terminal.**
 
-    <!-- ci:command-test id=setup-personal-repo fixture=empty-repos expect=repo -->
-    ```bash
-    cd ~/Repos
-    gh auth setup-git
-    gh api --method PUT user/starred/GC-STEM/it140-m2-assignment
-    gh repo create it140-m2-assignment --template GC-STEM/it140-m2-assignment --private --clone
-    cd it140-m2-assignment
-    git remote -v
+   <!-- ci:command-test id=setup-personal-repo fixture=empty-repos expect=repo -->
+   ```bash
+   cd ~/Repos
+   gh auth setup-git
+   gh api --method PUT user/starred/GC-STEM/it140-m2-assignment
+   gh repo create it140-m2-assignment --template GC-STEM/it140-m2-assignment --private --clone
+   cd it140-m2-assignment
+   git remote -v
    ```
 
     *Note*. The above commands only work the first time you run them successfully. If you want to update your repository later or start over, see the [**Get Help and Support**](#get-help-and-support) section.
@@ -106,11 +108,11 @@ We strongly recommend that you complete course assignments using the Codio Virtu
 
 2. Open a terminal window (**Git Bash on Windows**). Copy and paste the following commands to open the assignment repository in VS Code. Press **Enter** to run them.
 
-    <!-- ci:command-test id=open-part-a fixture=existing-repo expect=repo -->
-    ```bash
-    cd ~/Repos/it140-m2-assignment
-    code .
-    ```
+   <!-- ci:command-test id=open-part-a fixture=existing-repo expect=repo -->
+   ```bash
+   cd ~/Repos/it140-m2-assignment
+   code .
+   ```
 
    *Reminder*. **Path shortcuts**: In terminal commands, **`~`** means your home folder, and **`.`** means the current working directory (CWD). For example:
      * `cd ~/Repos` means change directory to the `Repos` folder inside your home folder.
@@ -156,11 +158,11 @@ We strongly recommend that you complete course assignments using the Codio Virtu
 
 2. Open a terminal window (**Git Bash on Windows**). Copy and paste the following commands to open the assignment repository in VS Code. Press **Enter** to run them.
 
-    <!-- ci:command-test id=open-part-b fixture=existing-repo expect=repo -->
-    ```bash
-    cd ~/Repos/it140-m2-assignment
-    code .
-    ```
+   <!-- ci:command-test id=open-part-b fixture=existing-repo expect=repo -->
+   ```bash
+   cd ~/Repos/it140-m2-assignment
+   code .
+   ```
 
 3. If the **Chat** pane opens in VS Code, click the **X** in the upper right corner for that pane to close it. Do NOT click the **X** to close the entire VS Code window.
 
@@ -221,12 +223,9 @@ If the Python syntax check or acceptance tests fail, return to Part A, correct t
 
 In your IT 140 course in [D2L Brightspace](https://learn.snhu.edu/), go to the **Course Menu** and select **Assignments**. Click on the **2-3 Assignment: Software Development Introduction** link. Follow the instructions to submit your assignment. Submit the following files in Brightspace as one submission:
 
-* Graded files:
-  * [`name_age.py`](./Part-A/src/name_age.py)
-  * [`ide_features.md`](./Part-B/ide_features.md)
+1. [`name_age.py`](./Part-A/src/name_age.py)
 
-* Ungraded files:
-  * [`name_age_sdw.md`](./Part-A/name_age_sdw.md)
+2. [`ide_features.md`](./Part-B/ide_features.md)
 
 ## Get Help and Support
 
