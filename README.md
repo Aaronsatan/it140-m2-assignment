@@ -230,6 +230,18 @@ In your IT 140 course in [D2L Brightspace](https://learn.snhu.edu/), go to the *
 
 ## Get Help and Support
 
+### Academic Support
+
+* For **live help** with this assignment or zyBooks activities, see [Academic Support](https://github.com/GC-STEM/it140/wiki/Academic-Support).
+
+* For **self help** with this assignment and other module concepts, see the assignment [Wiki](https://github.com/GC-STEM/it140-m2-assignment/wiki).
+
+### Technical Support
+
+* For **live help** with course infrastructure (Codio, zyBooks, Sense), click the **IT Service Desk** link on the menu bar in your [D2L Brightspace](https:\\learn.snhu.edu) course.
+
+* For **self help** with course infrastructure, continue reading.
+
 ### The course IDE Update reports a failure
 
 If Step 5 reports `Failures` greater than `0`, stop before continuing to Step 6. Follow the **Action required** and **Next step** shown in the Update summary.

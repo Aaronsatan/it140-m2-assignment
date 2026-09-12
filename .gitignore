@@ -1,7 +1,9 @@
 # WARNING: Do NOT modify this file.
 # If there is a problem with it, submit a GitHub issue or pull request to fix it.
 
-# Byte-compiled / optimized / DLL files
+temp.*
+
+ Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
