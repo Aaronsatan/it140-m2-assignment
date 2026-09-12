@@ -7,7 +7,7 @@
 > [!IMPORTANT]
 >
 > * 🚫 **Fork** — Do NOT fork this repo!!! Instead, follow the instructions in this README.
-> * 🚫 **Use this template** — Do NOT click the green Use the template button!!! Instead, follow the instructions in this README.
+> * 🚫 **Use this template** — Do NOT click the green *Use the template* button!!! Instead, follow the instructions in this README.
 > * ⭐ **Star** — Click to bookmark this repo, if desired.
 > * 👁️ **Watch** — Click to receive notices of repo changes, if desired.
 >   * **Students:** Not recommended. Watching generates unnecessary notifications.
