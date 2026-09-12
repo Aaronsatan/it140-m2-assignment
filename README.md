@@ -30,6 +30,9 @@
 
 ---
 
+<!-- omit from toc -->
+## Table of Contents
+
 * [0. Meet the Prerequisites](#0-meet-the-prerequisites)
 * [1. Setup the Assignment](#1-setup-the-assignment)
 * [2. Complete Part A](#2-complete-part-a)
