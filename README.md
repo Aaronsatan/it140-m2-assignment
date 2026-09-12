@@ -64,20 +64,16 @@ We strongly recommend that you complete course assignments using the Codio Virtu
 
 4. Update your system if it has been more than a week since your last update. Be patient. It may take a few minutes to complete. Updating may also require a restart.
 
-   * **CVD**: Click the terminal icon on the taskbar to open a terminal window. Type `update_it140.sh` and press **Enter**.
+   1. **CVD Users**: Click the terminal icon on the taskbar to open a terminal window. Type `update_it140.sh` and press **Enter**.
 
-   * **macOS**: Under development.
+   2. Review the output of the update script. You are mainly interested in `Failures: 0` and the `Restart required:` message.
+      * If `Failures` is greater than `0`, review the [**Get Help and Support**](#get-help-and-support) section.
+      * If `Restart required: No`, type `exit` and press **Enter** to close the terminal window.
+      * If `Restart required: Yes`, click the **RESTART VM** button on the Codio taskbar and wait for the CVD to restart.
 
-   * **Windows**: Under development.
+      ![Update summary in split screen](./.github/assets/15_split_screen_update_summary.png)
 
-5. Review the output of the update script. You are mainly interested in `Failures: 0` and the `Restart required:` message.
-   * If `Failures` is greater than `0`, review the [**Get Help and Support**](#get-help-and-support) section.
-   * If `Restart required: No`, type `exit` and press **Enter** to close the terminal window.
-   * If `Restart required: Yes`, click the **RESTART VM** button on the Codio taskbar and wait for the CVD to restart.
-
-   ![Update summary in split screen](./.github/assets/15_split_screen_update_summary.png)
-
-6. Open a new terminal window and copy the following command block and paste it into the new terminal window. If prompted about a "Potentially Unsafe Paste", click the **Paste** button. Press **Enter** to run the commands. **Windows users must use a Git Bash terminal.**
+5. Open a new terminal window and copy the following command block and paste it into the new terminal window. If prompted about a "Potentially Unsafe Paste", click the **Paste** button. Press **Enter** to run the commands. **Windows users must use a Git Bash terminal.**
 
    <!-- ci:command-test id=setup-personal-repo fixture=empty-repos expect=repo -->
    ```bash
@@ -89,15 +85,15 @@ We strongly recommend that you complete course assignments using the Codio Virtu
    git remote -v
    ```
 
-    *Note*. The above commands only work the first time you run them successfully. If you want to update your repository later or start over, see the [**Get Help and Support**](#get-help-and-support) section.
+   *Note*. The above commands only work the first time you run them successfully. If you want to update your repository later or start over, see the [**Technical Support**](#technical-support) section.
 
-7. Review the output of the last command. You should see output similar to the what is shown below, except with your GitHub username in place of `petey-penmen`.
+6. Review the output of the last command. You should see output similar to the what is shown below, except with your GitHub username in place of `petey-penmen`.
 
    ![Git remote output](./.github/assets/17_gh_repo_setup.png)
 
-8. Determine if you want to continue to Part A now or if you want to stop and continue later.
+7. Determine if you want to continue to Part A now or if you want to stop and continue later.
    * If you want to continue to Part A now, type `code .` and press **Enter**. Skip to Step 3 in **2. Complete Part A**.
-   * If done for now, type `exit` and press **Enter** to close the terminal window. Bookmark the CVD page in your local browser, if you have not already, so you can return to it later without going through D2L Brightspace.
+   * If done for now, type `exit` and press **Enter** to close the terminal window. Bookmark the CVD page in your local browser, if you have not already, so you can return to it later without going through [D2L Brightspace](https://learn.snhu.edu).
 
 ## 2. Complete Part A
 
@@ -147,11 +143,12 @@ We strongly recommend that you complete course assignments using the Codio Virtu
 
    ![Open Part-A README to the Side in VS Code](./.github/assets/25_vscode_explorer_open_side.png)
 
-6. You will now follow instructions in the `Part-A/README.md` file. When ready, maximize the VS Code window by clicking the **Maximize** button in the upper right corner of the VS Code window. Look for the green box in the previous screenshot.
+6. You will now follow instructions in the `Part-A/README.md` file.
+   * **CVD User**. When ready, maximize the VS Code window by clicking the **Maximize** button in the upper right corner of the VS Code window. Look for the green box in the previous screenshot.
 
 ## 3. Complete Part B
 
-1. If not already running, launch the CVD and carry out the remaining instructions from within the CVD.
+1. **CVD Users**. If not already running, launch the CVD and carry out the remaining instructions from within the CVD.
 
 2. Open a terminal window (**Git Bash on Windows**). Copy and paste the following commands to open the assignment repository in VS Code. Press **Enter** to run them.
 
@@ -175,7 +172,8 @@ We strongly recommend that you complete course assignments using the Codio Virtu
 
    ![Open Part-B README to the Side in VS Code](./.github/assets/35_vscode_explorer_open_side.png)
 
-6. You will now follow instructions in the `Part-B/README.md` file. When ready, maximize the VS Code window by clicking the **Maximize** button in the upper right corner of the VS Code window right above it. Look for the green box in the previous screenshot.
+6. You will now follow instructions in the `Part-B/README.md` file. 
+   * **CVD Users**. When ready, maximize the VS Code window by clicking the **Maximize** button in the upper right corner of the VS Code window right above it. Look for the green box in the previous screenshot.
 
 ## 4. Save Your Work to GitHub
 
@@ -192,7 +190,7 @@ git commit -m "Complete Module Two assignment"
 git push
 ```
 
-These commands:
+These commands do the following:
 
 * `git status` shows the current state of your local repository.
 * `git add` prepares your Module Two assignment files to be saved.
@@ -214,11 +212,11 @@ To review the feedback:
 If the Python syntax check or acceptance tests fail, return to Part A, correct the problem, test your program again, and then commit and push the corrected version.
 
 > [!IMPORTANT]
-> **Saving your work to GitHub does not submit your assignment.** You must still submit the required files in **D2L Brightspace** in the next section.
+> Saving your work to GitHub does not submit your assignment. You must still submit the required files in [D2L Brightspace](https:\\learn.snhu.edu) in the next section.
 
 ## 5. Submit Your Assignment
 
-In your IT 140 course in [D2L Brightspace](https://learn.snhu.edu/), go to the **Course Menu** and select **Assignments**. Click on the **2-3 Assignment: Software Development Introduction** link. Follow the instructions to submit your assignment. Submit the following files in Brightspace as one submission:
+In your IT 140 course in [D2L Brightspace](https://learn.snhu.edu/), go to the **Course Menu** and select **Assignments**. Click on the **2-3 Assignment: Software Development Introduction** link. Follow the instructions to submit your assignment. Submit both files in Brightspace as one submission:
 
 1. [`name_age.py`](./Part-A/src/name_age.py)
 
