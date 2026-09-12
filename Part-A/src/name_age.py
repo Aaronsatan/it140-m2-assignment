@@ -16,9 +16,9 @@ Typical usage example:
     TODO: Replace with the input prompt and original age-input example.
     TODO: Replace with the resulting output from those inputs.
 """
+
 # === Imports ===
 from datetime import date
-
 
 # === Constants ===
 CURRENT_YEAR = date.today().year  # Get current year from system as integer
