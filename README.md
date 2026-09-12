@@ -112,7 +112,6 @@ We strongly recommend that you complete course assignments using the Codio Virtu
      * `code .` opens the current folder in VS Code.
 
    >*Note*
-   > If VS Code opens in Restricted Mode: Your `~/Repos` folder should already be trusted if you completed the Module One course IDE setup. Normally, you will not see this warning.
    >
    > If you see the **Restricted Mode** warning bar:
    >
@@ -124,7 +123,7 @@ We strongly recommend that you complete course assignments using the Codio Virtu
    > 4. In the folder selection window, go to your home folder and select the entire **Repos** folder.
    > 5. Confirm the folder selection and trust it when prompted.
    > 6. Verify that your **Repos** folder appears under **Trusted Folders & Workspaces**.
-   >
+   >  
    > Trust the entire `~/Repos` folder rather than only `it140-m2-assignment`. VS Code applies trust to all subfolders of a trusted parent folder, including this assignment repository.
    >
    > After `~/Repos` is trusted, VS Code should leave Restricted Mode and the course extensions and workspace settings should be available normally.
