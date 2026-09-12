@@ -4,6 +4,16 @@
 
 **Assignment progress:** [0 Start Here](../README.md) → [1 Part A](../Part-A/README.md) → **2 Part B** → [3 Submit](../README.md)
 
+<!-- omit from toc -->
+## Table of Contents
+
+* [Overview](#overview)
+* [Deliverable](#deliverable)
+* [Start Part B](#start-part-b)
+* [What You Will Do](#what-you-will-do)
+* [Help and Support](#help-and-support)
+* [Next Steps](#next-steps)
+
 ## Overview
 
 In Part B, you will reflect on your experience using an integrated development environment (IDE) while completing the `name_age` program in Part A.
@@ -227,6 +237,19 @@ Check that:
 * The document looks complete and professional.
 
 You can continue using the **side-by-side editor and Preview** while making final corrections.
+
+> [!NOTE]
+> **A spell-check underline does not necessarily mean there is an error.**
+>
+> The course IDE includes a spell checker that marks words it does not recognize with a blue squiggly underline. Names, technical terms, and other correctly spelled words may not be in the spell checker's dictionary.
+>
+> When you see a blue squiggly underline:
+>
+> 1. Check whether the word is spelled correctly.
+> 2. If it is misspelled, correct it.
+> 3. If it is spelled correctly, you can ignore the underline or add the word to the spell checker's dictionary by hovering your pointer over the word and selecting **Quick Fix**.
+>
+> A spell-check suggestion does **not** mean that your Python program contains an error.
 
 ## Help and Support
 

@@ -4,6 +4,15 @@
 
 **Assignment progress:** [0 Start Here](../README.md) → **1 Part A** → [2 Part B](../Part-B/README.md) → [3 Submit](../README.md)
 
+<!-- omit from toc -->
+## Table of Contents
+
+* [Overview](#overview)
+* [Deliverables](#deliverables)
+* [Start Part A](#start-part-a)
+* [Help and Support](#help-and-support)
+* [Next Steps](#next-steps)
+
 ## Overview
 
 In Part A, you will complete the `name_age` Python program using a simplified Software Development Life Cycle (SDLC):

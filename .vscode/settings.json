@@ -112,6 +112,7 @@
         "dmypy",
         "DNME",
         "Dockerfiles",
+        "Docstrings",
         "dout",
         "dpkg",
         "drawio",

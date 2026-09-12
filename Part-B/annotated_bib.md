@@ -4,6 +4,17 @@
 
 The following sources provide authoritative information about features available in the course IDE. Use these sources to learn more about IDE features you used while completing your programming assignment and to support explanations in your IDE Features Reflection. Focus on features that you actually used or observed. **Do not use AI-assisted features, such as GitHub Copilot, for this reflection.**
 
+<!-- omit from toc -->
+## Table of Contents
+
+* [Python in Visual Studio Code](#python-in-visual-studio-code)
+* [Quick Start Guide for Python in VS Code](#quick-start-guide-for-python-in-vs-code)
+* [Basic Editing](#basic-editing)
+* [Linting Python in Visual Studio Code](#linting-python-in-visual-studio-code)
+* [Python Debugging in VS Code](#python-debugging-in-vs-code)
+* [Code Spell Checker](#code-spell-checker)
+* [Ruff Editor Features](#ruff-editor-features)
+
 ## Python in Visual Studio Code
 
 Microsoft. (n.d.). *Python in Visual Studio Code*. Visual Studio Code. Retrieved August 25, 2026, from [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python?utm_source=chatgpt.com)
@@ -39,6 +50,19 @@ This Microsoft resource explains the debugging tools available for Python progra
 Street Side Software. (n.d.). *Code Spell Checker*. GitHub. Retrieved August 25, 2026, from [Code Spell Checker](https://github.com/streetsidesoftware/vscode-spell-checker)
 
 Code Spell Checker is a VS Code extension that checks spelling while you work in source code and documents. Words that may be misspelled appear with a squiggly underline, and the extension can provide suggested corrections. For your reflection, consider whether Code Spell Checker helped you notice and correct spelling mistakes while writing code, comments, or Markdown documentation. Think about how catching these mistakes while you work can improve the readability and quality of your programming work.
+
+> [!NOTE]
+> **A spell-check underline does not necessarily mean there is an error.**
+>
+> The course IDE includes a spell checker that marks words it does not recognize with a blue squiggly underline. Names, technical terms, and other correctly spelled words may not be in the spell checker's dictionary.
+>
+> When you see a blue squiggly underline:
+>
+> 1. Check whether the word is spelled correctly.
+> 2. If it is misspelled, correct it.
+> 3. If it is spelled correctly, you can ignore the underline or add the word to the spell checker's dictionary by hovering your pointer over the word and selecting **Quick Fix**.
+>
+> A spell-check suggestion does **not** mean that your Python program contains an error.
 
 ## Ruff Editor Features
 

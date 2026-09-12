@@ -4,6 +4,17 @@
 
 **SDLC progress:** [0 Start Here](../README.md) → [1 Analyze](../analysis/README.md) → [2 Design](../design/README.md) → **3 Construct** → [4 Test](../tests/README.md) → [5 Submit](https://learn.snhu.edu/)
 
+<!-- omit from toc -->
+## Table of Contents
+
+* [Purpose](#purpose)
+* [Deliverable](#deliverable)
+* [What You Will Use](#what-you-will-use)
+* [What You Will Do](#what-you-will-do)
+* [Check Your Work](#check-your-work)
+* [Help and Support](#help-and-support)
+* [Next Steps](#next-steps)
+
 ## Purpose
 
 During the Construct phase, you turn the provided design into a working Python program.
@@ -323,6 +334,19 @@ Pay particular attention to:
 * Variable-name spelling
 * Correct use of `=`
 * Correct placement of function calls such as `input()`, `int()`, and `print()`
+
+> [!NOTE]
+> **A spell-check underline does not necessarily mean there is an error.**
+>
+> The course IDE includes a spell checker that marks words it does not recognize with a blue squiggly underline. Names, technical terms, and other correctly spelled words may not be in the spell checker's dictionary.
+>
+> When you see a blue squiggly underline:
+>
+> 1. Check whether the word is spelled correctly.
+> 2. If it is misspelled, correct it.
+> 3. If it is spelled correctly, you can ignore the underline or add the word to the spell checker's dictionary by hovering your pointer over the word and selecting **Quick Fix**.
+>
+> A spell-check suggestion does **not** mean that your Python program contains an error.
 
 ### 10. Complete the References Section
 
