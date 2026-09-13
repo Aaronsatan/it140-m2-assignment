@@ -139,7 +139,7 @@ REQUIRED_TEXT_MARKERS = {
         "# Construct Phase",
         "### Edit Only TODO Lines",
         "## Deliverable",
-        "### 6. Recognize the Main Function",
+        "### 6. Work Inside the Main Function",
     ),
     "Part-A/tests/README.md": (
         "# Test Phase",
