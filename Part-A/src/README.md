@@ -21,7 +21,7 @@ During the Construct phase, you turn the provided design into a working Python p
 
 You will complete the [`name_age.py`](./name_age.py) starter file in small steps. Use your [Software Development Worksheet (SDW)](../name_age_sdw.md) and the provided [pseudocode](../design/name_age.pseudo) to guide your work.
 
-This starter file contains more Python structure than programs you have seen so far. Some of that structure uses concepts you have not learned yet. **You are not expected to understand or write all of it yet.**
+This starter file contains more Python structure than programs you have seen so far. Some of that structure uses concepts you have not learned yet. **You are not expected to understand or write all of it yet.** The provided structure is complete; your work is limited to the lines marked `TODO:`.
 
 ### Edit Only TODO Lines
 
@@ -73,18 +73,20 @@ Relevant zyBooks topics include:
 
 Open [`name_age.py`](./name_age.py) and read it from beginning to end before making changes.
 
-The file is organized approximately as:
+The file is organized into the following parts:
 
-```text
-Module docstring
-Imports
-Constants
-Main function
-Main guard
-References
-```
+| Part | What to do in this assignment |
+| --- | --- |
+| Module docstring | Replace its `TODO:` lines with your own documentation. |
+| Imports | Read the provided code, but do not change it. |
+| Constants | Read the provided code, but do not change it. |
+| Main function | Replace only its four `# TODO:` lines with indented Python statements. |
+| Main guard | Read the provided code, but do not change it. |
+| References | Replace or delete its `# TODO:` lines as directed in Step 10. |
 
-This organization helps make a Python source file easier to read. The large section-header comments in this starter file are **instructional scaffolding** to help you recognize those parts. Professional Python code normally relies more on conventional ordering, descriptive names, and blank lines than on large section-header comments. Note that by convention, two blank lines separate top-level structures such as the module docstring, imports, constants, and function definitions.
+This organization helps make a Python source file easier to read. The large section-header comments are **instructional scaffolding** that identify the parts of your first structured Python module. Professional Python code normally relies more on conventional ordering, descriptive names, blank lines, and smaller comments.
+
+The rest of these instructions explain what you must know to complete the assignment. If you are curious about how all the provided parts work, see [Understanding the Name and Age Starter File](https://github.com/GC-STEM/it140-m2-assignment/wiki/Understanding-the-Name-and-Age-Starter-File) in the assignment wiki.
 
 ### 2. Complete the Module Docstring
 
@@ -123,147 +125,63 @@ Only replace the lines in the Python file marked `TODO:`. Keep the provided head
 
 ### 3. Recognize the Import
 
-You previously learned in zyBooks 1.19 that a **module** contains Python code that can be imported and used by another program.
-
-This starter file introduces:
+The starter file provides this import:
 
 ```python
 from datetime import date
 ```
 
-[`datetime`](https://docs.python.org/3.12/library/datetime.html) is a module in the [**Python Standard Library**](https://docs.python.org/3.12/library/index.html). The module defines a class named `date`.
+It makes Python's `date` class available to the program. The provided constant in Step 4 uses `date.today()` to get the computer's current local date.
 
-The statement:
-
-```python
-from datetime import date
-```
-
-imports the `date` class name directly so the program can use one of its methods as:
-
-```python
-date.today()
-```
-
-to obtain the current date, including the current year, from the computer's current local date.
-
-You do not need to understand the `datetime` module in more detail for this assignment, and **you should not change the import line**.
+You do not need to write or change this line. To learn more, see [Importing `date`](https://github.com/GC-STEM/it140-m2-assignment/wiki/Understanding-the-Name-and-Age-Starter-File#importing-date).
 
 ### 4. Recognize the Constant
 
-The starter file introduces the concept of a **constant**. In zyBooks 1.13, you learned about variables and assignments. A constant is like a variable in that it holds a value assigned to it. While variables usually change as the program runs, a constant is intended to remain unchanged during the program's execution. Another difference is that constants are normally written in **UPPERCASE_WITH_UNDERSCORES** (a.k.a. "upper snake case") instead of **lowercase_with_underscores** (a.k.a. "lower snake case") used for variable names.
-
-The starter file defines a constant named `CURRENT_YEAR` and assigns it the current year from the system using the `date.today()` method:
+The starter file provides this constant:
 
 ```python
 CURRENT_YEAR = date.today().year
 ```
 
-For this program:
+It gets the current year from the computer and stores it as an integer. Your code will use `CURRENT_YEAR` in the required calculation. This is why your SDW treats the current year as an input the program **obtains internally**, even though the user does not type it.
 
-* `CURRENT_YEAR` receives the current year from the system.
-* Its value is set before `main()` runs.
-* The program treats that value as unchanged while performing its work.
-
-This is why your SDW treats the current year as an input the program **obtains internally**, even though the user does not type it.
-
-**Do not change the `CURRENT_YEAR` line.**
+You do not need to write or change this line. To learn more, see [The `CURRENT_YEAR` constant](https://github.com/GC-STEM/it140-m2-assignment/wiki/Understanding-the-Name-and-Age-Starter-File#the-current_year-constant).
 
 ### 5. Recognize the Documentation and Comments
 
-The starter file demonstrates several ways Python code can be documented.
+The starter file uses a module docstring, a function docstring, block comments, an inline comment, and instructional section-header comments. Only the marked `TODO:` lines require your work.
 
-#### Docstrings
+You will complete the module docstring in Step 2, replace the four code TODO comments in Step 8, and complete or delete the reference TODO comments in Step 10. Leave the other documentation and comments unchanged.
 
-A **docstring** is a string used to document a module, function, class, or method. Docstrings are not technically comments.
+To learn how these forms of documentation differ, see [Documentation and comments](https://github.com/GC-STEM/it140-m2-assignment/wiki/Understanding-the-Name-and-Age-Starter-File#documentation-and-comments).
 
-You see two docstrings in this file:
+### 6. Work Inside the Main Function
 
-* The multi-line **module docstring** at the beginning of the file
-* The one-line `"""Run the program."""` docstring inside `main()`
-
-#### Block Comments
-
-A **block comment** appears on its own line and describes code that follows it.
-
-For example:
-
-```python
-# Calculate user's approximate birth year.
-```
-
-The `TODO` comments inside `main()` are also block comments, but they use a specific keyword to indicate tasks that need to be completed. Your job is to replace those `TODO` comments with working Python code.
-
-#### Inline Comments
-
-An **inline comment** appears on the same line as Python code.
-
-For example:
-
-```python
-CURRENT_YEAR = date.today().year  # Get current year from system as integer
-```
-
-Inline comments should be used when they add information that is useful to the reader rather than simply repeating what the code already says. This particular inline comment would not be necessary in a professional program because the code is already clear. Since you are seeing it for the first time, it is included here to help you understand what that line of code does.
-
-#### Instructional Section Headers
-
-The starter also contains comments such as:
-
-```python
-# === Imports ===
-# === Constants ===
-# === Main Function ===
-```
-
-These section headers are included to help you recognize the major parts of your first structured Python module. They are **instructional scaffolding** comment lines and are not normally necessary in a small professional Python program.
-
-Professional Python source files still use a predictable organization and blank lines to separate major structures. [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/), for example, places imports near the beginning of a file and uses two blank lines around top-level function definitions.
-
-### 6. Recognize the Main Function
-
-All the code you write for this activity goes inside:
+All four Python statements you write for this assignment go inside the provided `main()` function:
 
 ```python
 def main() -> None:
     """Run the name-age program."""
-```
-
-The first line defines a function named `main()`. The second line is a docstring that describes what the function does. The `-> None` indicates that this function does not return a value. Do not change the `main()` definition or its docstring.
-
-You will learn much more about functions in **zyBooks Chapter 5**. For now, you only need to know that `main()` contains the main sequence of code for this program.
-
-Python uses indentation to identify code that belongs inside a function. The starter TODO comments inside `main()` are indented the standard four spaces:
-
-```python
-def main() -> None:
-    """Run the program."""
 
     # TODO: Replace with code here.
 ```
 
-When you replace one of those TODO comments with Python code, **keep the four-space indentation**.
+Do not change the `main()` definition or its docstring. Replace each code TODO comment while keeping the same four-space indentation. The indentation shows Python that your statement belongs inside `main()`.
 
-### 7. Recognize the Main Guard
+You will learn how to define functions later in the course. To learn more now, see [The `main()` function](https://github.com/GC-STEM/it140-m2-assignment/wiki/Understanding-the-Name-and-Age-Starter-File#the-main-function).
 
-Near the bottom of the file you will see:
+### 7. Leave the Main Guard Unchanged
+
+Near the bottom of the file, the provided **main guard** starts the `main()` function when you run `name_age.py` directly:
 
 ```python
 if __name__ == "__main__":
     main()
 ```
 
-This is commonly called the **main guard**.
+You do not need to write or change either line. Keep `main()` indented beneath the `if` statement.
 
-When this file is run directly, Python assigns the special string value `"__main__"` to `__name__`. The main guard then calls `main()` to start the program.
-
-This structure also allows a Python file to be imported by another Python file without automatically running `main()`. That becomes useful as programs grow and when programs are tested.
-
-You do not need to fully understand the main guard yet. You will learn more about functions later in the course and use this program structure again in later activities.
-
-Notice that `main()` is indented beneath the `if` statement because it belongs to that block. You will learn about indentation and `if` statements in Module Three.
-
-**Do not change either line of the main guard.**
+You will learn about `if` statements and functions later in the course. To learn more now, see [The main guard](https://github.com/GC-STEM/it140-m2-assignment/wiki/Understanding-the-Name-and-Age-Starter-File#the-main-guard).
 
 ### 8. Write the Program One TODO at a Time
 
