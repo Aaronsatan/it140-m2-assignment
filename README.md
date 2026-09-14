@@ -232,7 +232,7 @@ In your IT 140 course in [D2L Brightspace](https://learn.snhu.edu/), go to the *
 
 ### Academic Support
 
-* For **live help** with this assignment or zyBooks activities, see [Academic Support](https://github.com/GC-STEM/it140/wiki/Academic-Support).
+* For **live help** with this assignment or zyBooks activities, see [Academic Support](https://github.com/GC-STEM/it140/wiki/Course-Support).
 
 * For **self help** with this assignment and other module concepts, see the assignment [Wiki](https://github.com/GC-STEM/it140-m2-assignment/wiki).
 
