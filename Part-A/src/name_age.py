@@ -13,7 +13,7 @@ Output:
 Typical usage example:
     What is your name? Richard
     How old are you? 45
-    Richard, you were born around 1981.
+    Richard, you were born in 1981.
 """
 
 # === Imports ===
