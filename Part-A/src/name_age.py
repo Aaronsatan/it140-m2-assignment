@@ -1,20 +1,19 @@
-"""TODO: Replace with a one-line summary of the program's purpose (<73 chars).
+"""This program asks for a name and age and estimates the person's birth year.
 
 Input:
-    TODO: Replace with a major input, including its type and source.
-    TODO: Replace with another major input, or delete this TODO line.
-    TODO: Replace with another major input, or delete this TODO line.
+    The user's name and as text
+    The user"s age as a whole number.
 
 Process:
-    TODO: Replace with a major processing step.
+    Subtract the user's age from the current year to estimate the birth year.
 
 Output:
-    TODO: Replace with a major output, including its type and destination.
+    Display the user's birth year name and estimated birth year.
 
 Typical usage example:
-    TODO: Replace with the input prompt and original name-input example.
-    TODO: Replace with the input prompt and original age-input example.
-    TODO: Replace with the resulting output from those inputs.
+    What is your name? Richard
+    How old are you? 45
+    Richard, you were born around 1981.
 """
 
 # === Imports ===
